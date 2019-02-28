@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/everishub-vlc-google-hashcode/FixTheBugs/issues"
   },
-  "homepage": "https://github.com/everishub-vlc-google-hashcode/FixTheBugs#readme"
+  "homepage": "https://github.com/everishub-vlc-google-hashcode/FixTheBugs#readme",
+  "dependencies": {
+    "mathball": "^0.2.0",
+    "underscore": "^1.9.1"
+  }
 }
