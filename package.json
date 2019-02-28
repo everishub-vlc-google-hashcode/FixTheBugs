@@ -1,0 +1,19 @@
+{
+  "name": "fixthebugs",
+  "version": "1.0.0",
+  "description": "google hashCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everishub-vlc-google-hashcode/FixTheBugs.git"
+  },
+  "author": "Fix the bugs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everishub-vlc-google-hashcode/FixTheBugs/issues"
+  },
+  "homepage": "https://github.com/everishub-vlc-google-hashcode/FixTheBugs#readme"
+}
