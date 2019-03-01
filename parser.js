@@ -138,15 +138,14 @@ const outputParser = () => {
   //   flags: 'a' // 'a' means appending (old data will be preserved)
   // })
   // logger.write(result.length);
-  fs.appendFileSync('log.txt', result.length + "\n") 
+  const fileName = `log${new Date().getTime()}.txt`;
+  fs.appendFileSync(fileName, result.length) 
 
   //console.log(result[0])
   result.forEach((slide) => {
     if (slide && slide.ID) {
-      fs.appendFileSync('log.txt', slide.ID + "\n") 
+      fs.appendFileSync(fileName, "\n" + slide.ID);
     }
-    
-
   });
   // logger.end();
 }
