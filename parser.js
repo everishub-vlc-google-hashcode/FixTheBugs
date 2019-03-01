@@ -84,17 +84,11 @@ const joinSlides = () => {
   console.log("Points: "+totalPoints)
 } 
 
-const processPhotoType = (photo) => {
+
+const processPhoto = (photo) => {
   if (photo.type === 'H') {
     addHorizontalSlides(photo);
   } else {
-    return photo;
-  }
-}
-
-const processPhoto = (photo) => {
-  const verticalPhoto = processPhotoType(photo);
-  if (verticalPhoto) {
     verticalPhotos.push(verticalPhoto);
   }
 }
